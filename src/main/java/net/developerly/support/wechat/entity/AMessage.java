@@ -6,7 +6,7 @@ package net.developerly.support.wechat.entity;
  * @author LY
  * @create 2017/06/01
  **/
-public class AMessage {
+public abstract class AMessage {
     /**
      * 开发者微信号
      */

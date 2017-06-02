@@ -1,25 +1,20 @@
-package net.developerly.support.wechat.entity.input;
+package net.developerly.support.wechat.entity.output;
 
 import net.developerly.support.wechat.entity.AMessage;
 
 import javax.xml.bind.annotation.XmlElement;
 
 /**
- * 接收消息基础类
+ * 回复抽象类
  *
  * @author LY
- * @create 2017/06/01
+ * @create 2017/06/02
  **/
-public abstract class  AInputMessage extends AMessage {
+public abstract class AOutputMessage extends AMessage {
     @Override
     @XmlElement(name="CreateTime")
     public long getCreateTime() {
         return super.getCreateTime();
-    }
-
-    @Override
-    public void setCreateTime(long CreateTime) {
-        super.setCreateTime(CreateTime);
     }
 
     @Override
@@ -29,19 +24,9 @@ public abstract class  AInputMessage extends AMessage {
     }
 
     @Override
-    public void setFromUserName(String fromUserName) {
-        super.setFromUserName(fromUserName);
-    }
-
-    @Override
     @XmlElement(name="MsgType")
     public String getMsgType() {
         return super.getMsgType();
-    }
-
-    @Override
-    public void setMsgType(String msgType) {
-        super.setMsgType(msgType);
     }
 
     @Override
@@ -50,8 +35,4 @@ public abstract class  AInputMessage extends AMessage {
         return super.getToUserName();
     }
 
-    @Override
-    public void setToUserName(String toUserName) {
-        super.setToUserName(toUserName);
-    }
 }

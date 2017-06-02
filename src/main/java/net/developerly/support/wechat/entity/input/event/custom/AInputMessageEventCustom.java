@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlElement;
  * @author LY
  * @create 2017/06/02
  **/
-public class AInputMessageEventCustom extends AInputMessageEvent {
+public abstract class AInputMessageEventCustom extends AInputMessageEvent {
     /**
      * 事件KEY值
      */

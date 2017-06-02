@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlElement;
  * @author LY
  * @create 2017/06/01
  **/
-public class AInputMessageMedia extends AInputMessageBase {
+public abstract class AInputMessageMedia extends AInputMessageBase {
     /**
      *消息媒体id，可以调用多媒体文件下载接口拉取数据。
      */

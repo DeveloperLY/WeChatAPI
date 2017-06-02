@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlElement;
  * @author LY
  * @create 2017/06/01
  **/
-public class AInputMessageEvent extends AInputMessage {
+public abstract class AInputMessageEvent extends AInputMessage {
     /**
      * 事件类型
      */

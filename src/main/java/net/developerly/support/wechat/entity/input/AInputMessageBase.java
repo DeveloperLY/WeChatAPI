@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlElement;
  * @author LY
  * @create 2017/06/01
  **/
-public class AInputMessageBase extends AInputMessage {
+public abstract class AInputMessageBase extends AInputMessage {
     /**
      * 消息id，64位整型
      */
