@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66140fe2-350d-45a2-9edb-d9215b624760" name="Default" comment="抽象类添加关键字&quot;abstract&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatJsonParserException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatRunTimeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/ElementUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/FileUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e2c05c79-2453-4951-a000-29d1a405b22c" name="Rejected commit: Default" comment="抽象类添加关键字&quot;abstract&quot;" />
@@ -38,26 +37,6 @@
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputMessageVideo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/entity/output/OutputMessageVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputMessageMusic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/entity/output/OutputMessageMusic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -166,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeChatRunTimeException.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeChatRunTimeException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatRunTimeException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -176,6 +155,28 @@
                 <element signature="e#233#234#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/ElementUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/FileUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -239,6 +240,8 @@
         <option value="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatException.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatJsonParserException.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/exception/WeChatRunTimeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/ElementUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/FileUtils.java" />
       </list>
     </option>
   </component>
@@ -340,6 +343,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -814,12 +847,12 @@
       <workItem from="1496411333031" duration="2353000" />
       <workItem from="1496413811900" duration="13000" />
       <workItem from="1496414003796" duration="743000" />
-      <workItem from="1496494046732" duration="804000" />
+      <workItem from="1496494046732" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11155000" />
+    <option name="totallyTimeSpent" value="11418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="2560" height="1417" extended-state="0" />
@@ -874,20 +907,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/entity/input/base/InputMessageLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/entity/input/base/AInputMessageMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/entity/input/AInputMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1297,6 +1316,24 @@
             <element signature="e#233#234#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/ElementUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/developerly/support/wechat/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
